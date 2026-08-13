@@ -1,0 +1,32 @@
+.header-logo {
+    width: 120px;
+}
+
+.group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: inset 0 -1px 0 0 #3e3c3c;
+}
+
+
+.group-header .group-nav {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.group-header .group-nav .btn-nav {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, #af16b7 0%, #391480 100%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

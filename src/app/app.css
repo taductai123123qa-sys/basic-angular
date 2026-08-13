@@ -1,0 +1,8 @@
+.angular-logo {
+    max-width: 9.2rem;
+}
+
+.angular-logo:hover {
+    animation: spin 20s linear infinite;
+    background-color: #d24141;
+}
